@@ -1,0 +1,107 @@
+{
+  "kind": "illustrated-previews",
+  "dimensions": [
+    1080,
+    1080
+  ],
+  "fps": 15,
+  "sources": [
+    {
+      "path": "audio/c3po-doomed.wav",
+      "bytes": 40426,
+      "sha256": "f63281998b37a69979d7b614fb9847c58ee36e93d74675516611e58ba041d151"
+    },
+    {
+      "path": "audio/c3po-excuse-me.wav",
+      "bytes": 72172,
+      "sha256": "37920746b8f8168ca66580ba100eaaac040974ae1ff0aa1a0006d7c0cb202a27"
+    },
+    {
+      "path": "audio/c3po-im-doomed.wav",
+      "bytes": 82546,
+      "sha256": "55daa254ed60c90e327ae6f41cac9443b30ea3bd8316776360d80604841aee7e"
+    },
+    {
+      "path": "audio/c3po-technical.wav",
+      "bytes": 63006,
+      "sha256": "21efe9a19994052e4bfe4abe00dd9c5f53003e2776ae9376a0be8bd5f331c496"
+    },
+    {
+      "path": "audio/c3po-thank-the-maker.wav",
+      "bytes": 74052,
+      "sha256": "13acaa2297b9a16e2962c217cb85b73ce88342803a31de1f4c1b38ff06065aa3"
+    },
+    {
+      "path": "audio/r2-agree.wav",
+      "bytes": 40664,
+      "sha256": "9d725132eb019380344482cdff51947fccf7afe2bab69a4a079b538d83deb0a0"
+    },
+    {
+      "path": "audio/r2-hello.wav",
+      "bytes": 61926,
+      "sha256": "02907470f8b2c7964456aa1f51ac7a017104cb46fe261b1a9659c098462a43d2"
+    },
+    {
+      "path": "audio/r2-win.wav",
+      "bytes": 41330,
+      "sha256": "9a835b07613408076aefcbd719678eb7024d7d8efcffa5c142c92d2c3ce1c08e"
+    },
+    {
+      "path": "site/fonts/orbitron-latin-700-normal.woff2",
+      "bytes": 6528,
+      "sha256": "ee6acc5ad5349018f9ca71fab8118144160e110838931874150a1ac3f97db38d"
+    },
+    {
+      "path": "site/fonts/source-sans-3-latin-400-normal.woff2",
+      "bytes": 15696,
+      "sha256": "0f73f35e08cde0a2f10c109c6e01d71459d97e4099ecd9a50f1b6c0209e4de2b"
+    },
+    {
+      "path": "site/fonts/source-sans-3-latin-700-normal.woff2",
+      "bytes": 15596,
+      "sha256": "ae35266f2ab0d5314ff9a04127931eb26c793e4f1269bb240046d4d2db4b7bb1"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "assets/promotion/droid-preview.mp4",
+      "bytes": 199503,
+      "sha256": "5f7be7245245a3ebc6c0a1772f1452edb02369e2daa911240aa5ef60adc3f911"
+    },
+    {
+      "path": "assets/promotion/droid-preview.png",
+      "bytes": 90868,
+      "sha256": "5975a79a25f962025f353d5adcb97f5fbfc0f518ac3a0818eb636e96ca886ae6"
+    },
+    {
+      "path": "assets/promotion/droid-preview.srt",
+      "bytes": 406,
+      "sha256": "b627835c10ecccf4be0262b23583e18eacee9ae5e278d4425941bc7afc732594"
+    },
+    {
+      "path": "assets/promotion/sound-preview.mp4",
+      "bytes": 386219,
+      "sha256": "45426aab2402f62e0554413621d33ac9340b935ba6d0a43089e6848da5fe87f1"
+    },
+    {
+      "path": "assets/promotion/sound-preview.png",
+      "bytes": 88947,
+      "sha256": "91fa9759018d49c4f8637848fd1eff24422107c05cf0569eca5b76c932d069bb"
+    },
+    {
+      "path": "assets/promotion/sound-preview.srt",
+      "bytes": 774,
+      "sha256": "017e741935e516dcd7bb3f1aa698e073bbd246235eebe0581d0fba76f99d9df4"
+    }
+  ],
+  "tools": {
+    "Pillow": "12.3.0",
+    "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "credentials_used": [],
+  "limitations": [
+    "Not a live host or physical audio recording.",
+    "No claim of hook execution in these videos.",
+    "Audio is assembled from the bundled, separately noticed Star Wars clips."
+  ]
+}

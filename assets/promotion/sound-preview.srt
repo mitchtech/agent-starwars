@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:04,000
+Session started
+R2-D2 whistles hello.
+Illustrated sound preview - not a live host recording
+
+2
+00:00:04,000 --> 00:00:08,000
+Approval needed
+"Excuse me."
+Illustrated sound preview - not a live host recording
+
+3
+00:00:08,000 --> 00:00:13,000
+Destructive command
+"We're doomed."
+Illustrated sound preview - not a live host recording
+
+4
+00:00:13,000 --> 00:00:17,000
+Turn finished
+"Oh, thank the Maker."
+Illustrated sound preview - not a live host recording
+
+5
+00:00:17,000 --> 00:00:22,000
+Usage limit reached
+"I'm doomed."
+Illustrated sound preview - not a live host recording
+
+6
+00:00:22,000 --> 00:00:27,000
+Thank the Maker.
+Local audio. No telemetry.
+Never approves or blocks anything.
+Illustrated sound preview - not a live host recording

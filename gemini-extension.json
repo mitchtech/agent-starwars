@@ -1,0 +1,5 @@
+{
+  "name": "agent-starwars",
+  "version": "0.1.0",
+  "description": "Local R2-D2 and C-3PO sound notifications and controls for Gemini CLI"
+}

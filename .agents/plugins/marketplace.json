@@ -1,0 +1,12 @@
+{
+  "name": "agent-starwars",
+  "interface": { "displayName": "Agent Star Wars" },
+  "plugins": [
+    {
+      "name": "starwars",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

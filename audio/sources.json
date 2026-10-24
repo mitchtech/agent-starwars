@@ -1,0 +1,985 @@
+{
+  "description": "Provenance and processing for the bundled clips. The committed WAV files are canonical; scripts/build-audio.py rebuilds them from these sources.",
+  "format": {
+    "sampleRate": 32000,
+    "channels": 1,
+    "sampleWidth": 2,
+    "loudness": -16
+  },
+  "clips": [
+    {
+      "id": "r2-hello",
+      "line": "(bright greeting whistle)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_FOUND_04.wav"
+        }
+      ],
+      "output": "02907470f8b2c7964456aa1f51ac7a017104cb46fe261b1a9659c098462a43d2"
+    },
+    {
+      "id": "r2-beeps",
+      "line": "(a burst of beeps and boops)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "DX/DX_CHR_R2D2_BEEPSANDBOOPS1.wav"
+        }
+      ],
+      "output": "d0912862025d1ffc3281b34b74308648623557cfaf248ed222f8faea5a89b875"
+    },
+    {
+      "id": "r2-agree",
+      "line": "(affirmative chirp)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_AGREE_01.wav"
+        }
+      ],
+      "output": "9d725132eb019380344482cdff51947fccf7afe2bab69a4a079b538d83deb0a0"
+    },
+    {
+      "id": "r2-agree-short",
+      "line": "(quick affirmative beep)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_AGREE_04.wav"
+        }
+      ],
+      "output": "34a8e136a97c01c9a67e9cc3c2af6d60ab51de88cee4b04ba92414b154cff154"
+    },
+    {
+      "id": "r2-agree-bright",
+      "line": "(bright affirmative beep)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_AGREE_05.wav"
+        }
+      ],
+      "output": "44b9bc25fc65ceb9fc7ecce5a0e07b3c8c8d724c16a9f146c179af7dd98b2fb9"
+    },
+    {
+      "id": "r2-annoyed",
+      "line": "(indignant raspberry)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_ANGERMED_08.wav"
+        }
+      ],
+      "output": "f3021fe5ac768913e35d6bea6b483ba2bd14e2b56e053e7237e2875cdcd0f0ae"
+    },
+    {
+      "id": "r2-angry",
+      "line": "(angry blat)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_ANGERLRG_02.wav"
+        }
+      ],
+      "output": "558f3fbeb978e5a81d9bb2a025cfb20f22f66a099e27d3f694e6c7779e24a407"
+    },
+    {
+      "id": "r2-attention",
+      "line": "(insistent attention beeps)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_ATTENTION_08.wav"
+        }
+      ],
+      "output": "708421e6f00bc67dd74b56f37750ae6713359845e2b57b59a87888ef1f09fcd4"
+    },
+    {
+      "id": "r2-alert",
+      "line": "(two-tone alert)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_ATTENTION_11.wav"
+        }
+      ],
+      "output": "deacfe89564ac0adffb3343ded12da05f7af5a85343776dab9e3bcb8d0d54aec"
+    },
+    {
+      "id": "r2-huh",
+      "line": "(curious rising warble)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_HUH_07.wav"
+        }
+      ],
+      "output": "b01bc96670b230709e21b5df259892bd3c28c8d4a5f0ca3143af57029f55fecc"
+    },
+    {
+      "id": "r2-query",
+      "line": "(questioning beep)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_HUH_02.wav"
+        }
+      ],
+      "output": "f53e798d90c20e7c1448f3d96bf598a041aa743a9861eeaf5f869e8b13ecc25b"
+    },
+    {
+      "id": "r2-fear",
+      "line": "(alarmed warble)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_FEAR_09.wav"
+        }
+      ],
+      "output": "9aba76f9fcf564131c9a71c1d60894938a96adb509b2cd43b8b534c390d88293"
+    },
+    {
+      "id": "r2-scream",
+      "line": "(R2-D2 scream)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_SCREAMLNG_02.WAV"
+        }
+      ],
+      "output": "1f7c4962b55b98f565f4238dd9fdab13234d0b5c49fc1dfbc1f8478278b6c99d"
+    },
+    {
+      "id": "r2-thinking",
+      "line": "(thoughtful burble)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_THOUGHTFUL_01.wav"
+        }
+      ],
+      "output": "b6adafb6864bd58449db094f51f2d9e2aa6213cde3774b70e3a42f76334404b3"
+    },
+    {
+      "id": "r2-pondering",
+      "line": "(pondering chatter)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_THOUGHTFUL_06.wav"
+        }
+      ],
+      "output": "4f196798efe6d2521a1a71f51501d35c85154bb57efc285a8c6e201c80d88519"
+    },
+    {
+      "id": "r2-win",
+      "line": "(excited trill)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_WIN_01.wav"
+        }
+      ],
+      "output": "9a835b07613408076aefcbd719678eb7024d7d8efcffa5c142c92d2c3ce1c08e"
+    },
+    {
+      "id": "r2-cheer",
+      "line": "(happy whistle)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_WIN_03.wav"
+        }
+      ],
+      "output": "768b901f38e5fe6c4a031037311222a5a98012a49a0e3b45cce6beb2c2a82d15"
+    },
+    {
+      "id": "r2-sad",
+      "line": "(sad descending whistle)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_LOSE_05.wav"
+        }
+      ],
+      "output": "8a697b106c76f0da9d6f41922ba668310ad8ee0c7cff2dd3aa326c2edea4a074"
+    },
+    {
+      "id": "r2-worried",
+      "line": "(worried warble)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_FEAR_07.wav"
+        }
+      ],
+      "output": "a2d0421e9217e61d09333521b3af664976eb38b1f1ed210bd25329f05c0c69de"
+    },
+    {
+      "id": "r2-static",
+      "line": "(electrocuted static)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_ELECTROCUTED_02.wav"
+        }
+      ],
+      "output": "c7eb8cf3f10c3dbd93bcb41d401774b31042165ab8b227e985c8c7c8fd917950"
+    },
+    {
+      "id": "r2-disagree",
+      "line": "(short raspberry)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_DISAGREE_09.wav"
+        }
+      ],
+      "output": "f5112d78db90770b3e753cee4b04ce52f867e64a299fa953dfdc085794cb099a"
+    },
+    {
+      "id": "r2-off-he-goes",
+      "line": "(rolling-off chirp)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_FOUND_01.wav"
+        }
+      ],
+      "output": "da23f78873c72e5dc866fd138a047f2e155ccb97bb6d14eaf0bad8127a87e1f7"
+    },
+    {
+      "id": "r2-power-down",
+      "line": "(power-down moan)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_DEATH_01.wav"
+        }
+      ],
+      "output": "d0a15dbe1e2fa7174d8b9d739e97276429d3ee904935d1cfabe0f1f1b2cccec5"
+    },
+    {
+      "id": "r2-laugh",
+      "line": "(R2-D2 laughing)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_LAUGHLRG_01.wav"
+        }
+      ],
+      "output": "b99f70755b4ec57d68baa0c7eda5a8f0b73e523eb530ed40bb773cd0513f14b2"
+    },
+    {
+      "id": "r2-singing",
+      "line": "(R2-D2 singing)",
+      "droid": "r2d2",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/436/438714.zip",
+          "sha256": "6676761e3fdc673f491c6c4140b527e37a23249986bab44181f699bba08b4ee1",
+          "member": "VOX/VO_R2D2_SINGING_03.wav"
+        }
+      ],
+      "output": "4940d7705923b756d9e70faa9e284ef05e68b5eb6b586f0265dab253c01ccdc4"
+    },
+    {
+      "id": "c3po-hello-assistance",
+      "line": "Oh, hello. I am C-3PO. How may I be of assistance?",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/435/438636.zip",
+          "sha256": "aea42dbefb81a339818b06a7113342456d5c8b35052184ce52036518eb7267e2",
+          "member": "DX/DX_CHR_C3PO_OHHELLOIAMC3POHOW_ENG.wav"
+        }
+      ],
+      "output": "2cfe2b49a68398627a3291ed1647cc0bd4f657e4683775c4efb5e7f50e20ce24"
+    },
+    {
+      "id": "c3po-glad-you-are-here",
+      "line": "I am glad you are here.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0155.wav"
+        }
+      ],
+      "output": "2c785997a02c944743a3d9546505acc160aa3bd8dba72dde5253ac726ab667b1"
+    },
+    {
+      "id": "c3po-greetings",
+      "line": "Greetings.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0151.wav"
+        }
+      ],
+      "output": "c9299be30528b91faa21cd2dc6d0567fa9a773401cf824b46028d20a12607099"
+    },
+    {
+      "id": "c3po-certainly",
+      "line": "I can certainly be of assistance here.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/435/438636.zip",
+          "sha256": "aea42dbefb81a339818b06a7113342456d5c8b35052184ce52036518eb7267e2",
+          "member": "DX/DX_CHR_C3PO_ICANCERTAINLYBEOF_ENG.wav"
+        }
+      ],
+      "output": "d22909e35ed66081f96b1e0c44e3f524acdc7086505182d4a46c478653bf8a52"
+    },
+    {
+      "id": "c3po-where-i-come-in",
+      "line": "I believe this is where I come in.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/435/438636.zip",
+          "sha256": "aea42dbefb81a339818b06a7113342456d5c8b35052184ce52036518eb7267e2",
+          "member": "DX/DX_CHR_C3PO_IBELIEVETHISISWHERE_ENG.wav"
+        }
+      ],
+      "output": "83b78d9fc6df1c60a88ee44a0680244a493b5a1d4922d0ae5ff62b462f7a6929"
+    },
+    {
+      "id": "c3po-see-your-point",
+      "line": "I see your point, sir.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/524/541575.zip",
+          "sha256": "ed15409f3087f39c7c4a3e0e7195deb0cfd2e1a28e4b9aba7b43761d90c703f3",
+          "member": "C3PO_c3po/c3po_10.mp3"
+        }
+      ],
+      "output": "375985d1dbbaf1efddf090e098fe1ff248e47435f8175a65f312273925e71bd9"
+    },
+    {
+      "id": "c3po-technical",
+      "line": "Don't get technical with me.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/524/541575.zip",
+          "sha256": "ed15409f3087f39c7c4a3e0e7195deb0cfd2e1a28e4b9aba7b43761d90c703f3",
+          "member": "C3PO_c3po/c3po_07.mp3"
+        }
+      ],
+      "output": "21efe9a19994052e4bfe4abe00dd9c5f53003e2776ae9376a0be8bd5f331c496"
+    },
+    {
+      "id": "c3po-your-fault",
+      "line": "I don't know what all this trouble is about, but I'm sure it must be your fault.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/524/541575.zip",
+          "sha256": "ed15409f3087f39c7c4a3e0e7195deb0cfd2e1a28e4b9aba7b43761d90c703f3",
+          "member": "C3PO_c3po/c3po_19.mp3"
+        }
+      ],
+      "output": "a9f2233ebe35807c509010e108ef080b8a3c8c87229b949692b23290aef004ea"
+    },
+    {
+      "id": "c3po-had-enough",
+      "line": "I've just about had enough of you.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/524/541575.zip",
+          "sha256": "ed15409f3087f39c7c4a3e0e7195deb0cfd2e1a28e4b9aba7b43761d90c703f3",
+          "member": "C3PO_c3po/c3po_08.mp3"
+        }
+      ],
+      "output": "582a41370bfd0c648a535d6770ee2498b21264fb3c2c1c44af81da1e8c965d1e"
+    },
+    {
+      "id": "c3po-dont-like-you",
+      "line": "I don't like you either.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/524/541575.zip",
+          "sha256": "ed15409f3087f39c7c4a3e0e7195deb0cfd2e1a28e4b9aba7b43761d90c703f3",
+          "member": "C3PO_c3po/c3po_09.mp3"
+        }
+      ],
+      "output": "152238dbd2c5ce75fcb94a6b594793d34d6e2c95e177cc950d963d9a7adc765f"
+    },
+    {
+      "id": "c3po-how-rude",
+      "line": "How rude!",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/524/541575.zip",
+          "sha256": "ed15409f3087f39c7c4a3e0e7195deb0cfd2e1a28e4b9aba7b43761d90c703f3",
+          "member": "C3PO_c3po/c3po_12.mp3"
+        }
+      ],
+      "output": "f2b7cf09d0bc7b7e830798c5610e42944b6628ea76d2213795c68465a500fbd2"
+    },
+    {
+      "id": "c3po-gone-too-far",
+      "line": "This time you have gone too far.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/524/541575.zip",
+          "sha256": "ed15409f3087f39c7c4a3e0e7195deb0cfd2e1a28e4b9aba7b43761d90c703f3",
+          "member": "C3PO_c3po/c3po_11.mp3"
+        }
+      ],
+      "output": "d92ab811be1ebcf720776b2c87d8197b0eacec438fe2ad75cb331e0107089b48"
+    },
+    {
+      "id": "c3po-on-purpose",
+      "line": "I believe you did that on purpose.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0171.wav"
+        }
+      ],
+      "output": "3337c3361bb1a2fadc663500bbad79268218761e9bf3358e565226ea7f607ded"
+    },
+    {
+      "id": "c3po-switch-off",
+      "line": "Oh, switch off!",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://www.wavsource.com/snds_2020-10-01_3728627494378403/movies/star_wars/switch-off.wav",
+          "sha256": "3bedd6e334261f6bd13117d5e5aebdf42d198cdc9ea02020745e780bb52512b2"
+        }
+      ],
+      "output": "479ba458be3b96b1725cc846fb571acbc91fd27623e4194641174ec6de8f01b1"
+    },
+    {
+      "id": "c3po-excuse-me",
+      "line": "Excuse me.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0168.wav"
+        }
+      ],
+      "output": "37920746b8f8168ca66580ba100eaaac040974ae1ff0aa1a0006d7c0cb202a27"
+    },
+    {
+      "id": "c3po-assist-me",
+      "line": "Would you assist me, please?",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0278.wav"
+        }
+      ],
+      "output": "9b42151a1f8545cf512321fd04eb68659ae159f3df9d488f0b819db753341e08"
+    },
+    {
+      "id": "c3po-did-you-hear",
+      "line": "Did you hear that?",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/524/541575.zip",
+          "sha256": "ed15409f3087f39c7c4a3e0e7195deb0cfd2e1a28e4b9aba7b43761d90c703f3",
+          "member": "C3PO_c3po/c3po_01.mp3"
+        }
+      ],
+      "output": "a3b3cf682211203e40b2e91539c3abbc7bcbc1f9098dd756c64eeae2eeea8e4c"
+    },
+    {
+      "id": "c3po-alerted",
+      "line": "All systems have been alerted to your presence, sir.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://www.wavsource.com/snds_2020-10-01_3728627494378403/movies/star_wars/alerted.wav",
+          "sha256": "0e856012e92594fecab452ded7a26941dd61d4cb92622549d2c5a15aeb16c5c1"
+        }
+      ],
+      "output": "43eb6ea6ed63699a4a98819c67bfb9f46755c3524d7911ef26c603144500c5d9"
+    },
+    {
+      "id": "c3po-be-careful",
+      "line": "Be careful. I am rather attached to all my parts.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/435/438636.zip",
+          "sha256": "aea42dbefb81a339818b06a7113342456d5c8b35052184ce52036518eb7267e2",
+          "member": "DX/DX_CHR_C3PO_BECAREFULIMQUITE_ENG.wav"
+        }
+      ],
+      "output": "12e4418e75439072e2ffe31974f0fe01c339ace98b9c2215914d1db61048de0a"
+    },
+    {
+      "id": "c3po-goodness",
+      "line": "Goodness gracious me.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/524/541575.zip",
+          "sha256": "ed15409f3087f39c7c4a3e0e7195deb0cfd2e1a28e4b9aba7b43761d90c703f3",
+          "member": "C3PO_c3po/c3po_13.mp3"
+        }
+      ],
+      "output": "6d180981552f54df91e0e0cda0b3a4ec451fd0457bf271fe5e7dbb021965afcc"
+    },
+    {
+      "id": "c3po-please-be-careful",
+      "line": "Please be careful.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0167.wav"
+        }
+      ],
+      "output": "b20d83be33b11fd1d97fc8ab60f2380a0efeed3dadb2201897aeb15f1ecd0214"
+    },
+    {
+      "id": "c3po-doomed",
+      "line": "We're doomed.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/524/541575.zip",
+          "sha256": "ed15409f3087f39c7c4a3e0e7195deb0cfd2e1a28e4b9aba7b43761d90c703f3",
+          "member": "C3PO_c3po/c3po_04.mp3"
+        }
+      ],
+      "output": "f63281998b37a69979d7b614fb9847c58ee36e93d74675516611e58ba041d151"
+    },
+    {
+      "id": "c3po-madness",
+      "line": "This is madness!",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/524/541575.zip",
+          "sha256": "ed15409f3087f39c7c4a3e0e7195deb0cfd2e1a28e4b9aba7b43761d90c703f3",
+          "member": "C3PO_c3po/c3po_03.mp3"
+        }
+      ],
+      "output": "5610c580dd6686e6b52ab81c9424d0d296b747b82c5e63598a1b281ca166b58b"
+    },
+    {
+      "id": "c3po-under-attack",
+      "line": "Oh no! I'm under attack!",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/435/438636.zip",
+          "sha256": "aea42dbefb81a339818b06a7113342456d5c8b35052184ce52036518eb7267e2",
+          "member": "DX/DX_CHR_C3PO_OHNOIMUNDERATTACK_ENG.wav"
+        }
+      ],
+      "output": "046c43b4be72aebd01e35da76e2461eda9c443f7d16ce19466a068e6305490f8"
+    },
+    {
+      "id": "c3po-talking-about",
+      "line": "What are you talking about?",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/524/541575.zip",
+          "sha256": "ed15409f3087f39c7c4a3e0e7195deb0cfd2e1a28e4b9aba7b43761d90c703f3",
+          "member": "C3PO_c3po/c3po_06.mp3"
+        }
+      ],
+      "output": "64394dd69a2ea2a87990bee7f710c3f7ac2938f5c09d536ba6afb61804a2dd65"
+    },
+    {
+      "id": "c3po-what-is-that",
+      "line": "What is that?",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/524/541575.zip",
+          "sha256": "ed15409f3087f39c7c4a3e0e7195deb0cfd2e1a28e4b9aba7b43761d90c703f3",
+          "member": "C3PO_c3po/c3po_18.mp3"
+        }
+      ],
+      "output": "b0f2d19ebe1a479e65964cc5061eed2e996a48f6dbd80836ecb85227f4f89441"
+    },
+    {
+      "id": "c3po-what-is-happening",
+      "line": "What is happening?",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0176.wav"
+        }
+      ],
+      "output": "f09d67b98ec3cc57d4e348b13b7f867e75a08d0821c689aef30b994702dd7023"
+    },
+    {
+      "id": "c3po-where-have-you-been",
+      "line": "At last! Where have you been?",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/524/541575.zip",
+          "sha256": "ed15409f3087f39c7c4a3e0e7195deb0cfd2e1a28e4b9aba7b43761d90c703f3",
+          "member": "C3PO_c3po/c3po_05.mp3"
+        }
+      ],
+      "output": "114fb9a71f38c2f1d246f547ce419561a0a814f3e4d56fe0ea21325458453f6f"
+    },
+    {
+      "id": "c3po-forgotten-us",
+      "line": "Artoo, do you think they have forgotten about us?",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0161.wav"
+        }
+      ],
+      "output": "bf76be56922b2ccfdf76a76817b04d2564319e14db4d31aacaf18708986859a3"
+    },
+    {
+      "id": "c3po-stand-here",
+      "line": "I shall stand here for as long as it takes to be of service.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0162.wav"
+        }
+      ],
+      "output": "2479bee726662caa4b30ae46f4e52989e6e60b450c7ab5fd119bcec80b827d3b"
+    },
+    {
+      "id": "c3po-thank-the-maker",
+      "line": "Oh, thank the Maker.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0190.wav",
+          "start": 1.88
+        }
+      ],
+      "output": "13acaa2297b9a16e2962c217cb85b73ce88342803a31de1f4c1b38ff06065aa3"
+    },
+    {
+      "id": "c3po-how-wonderful",
+      "line": "Oh, how wonderful!",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/435/438636.zip",
+          "sha256": "aea42dbefb81a339818b06a7113342456d5c8b35052184ce52036518eb7267e2",
+          "member": "DX/DX_CHR_C3PO_HOWWONDERFUL_ENG.wav"
+        }
+      ],
+      "output": "2d652fb2fbb97fc47cd7ee1e6489755ef543bafc2ec3fa26019f00e0c237c66a"
+    },
+    {
+      "id": "c3po-im-doomed",
+      "line": "I'm doomed.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0179.wav"
+        }
+      ],
+      "output": "55daa254ed60c90e327ae6f41cac9443b30ea3bd8316776360d80604841aee7e"
+    },
+    {
+      "id": "c3po-deserve-this",
+      "line": "What have I done to deserve this?",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0172.wav"
+        }
+      ],
+      "output": "e7d36e4897a57125427e12abaaf1ba296e850109fa60991312c16412cd6b3acc"
+    },
+    {
+      "id": "c3po-looks-bad",
+      "line": "This looks very bad.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0185.wav"
+        }
+      ],
+      "output": "28f3fc0682e047579f2b73ef262578e03ff56e42077d21f65960676c378d01ba"
+    },
+    {
+      "id": "c3po-sensors",
+      "line": "My sensors tell me enemies are approaching.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0181.wav"
+        }
+      ],
+      "output": "4d0262d59983d1386b33f7d27581234c32215aaf619292869d9b0c9dce839fd6"
+    },
+    {
+      "id": "c3po-not-quite-sure",
+      "line": "I'm not quite sure if you...",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0264.wav"
+        }
+      ],
+      "output": "d7fef9d747874e0b30adbfc97446efbff39b6254e95fdbea7a97ca4c3400cd95"
+    },
+    {
+      "id": "c3po-try-again",
+      "line": "I am not quite sure if you fully understood me previously. I will try again.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0219.wav"
+        }
+      ],
+      "output": "050fd566ea0db76a0fa09325e85f9fc8cbc9e6ad55dbab624f89f9545177f32f"
+    },
+    {
+      "id": "c3po-unpleasant",
+      "line": "That was very unpleasant.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/435/438636.zip",
+          "sha256": "aea42dbefb81a339818b06a7113342456d5c8b35052184ce52036518eb7267e2",
+          "member": "DX/DX_CHR_C3PO_THATWASVERY_ENG.wav"
+        }
+      ],
+      "output": "0ea6b877aea69554396e5777e2c833dd38ba3f4a75754fa5f85a08a2fdeed5d3"
+    },
+    {
+      "id": "c3po-not-built-for-this",
+      "line": "I wasn't built for this!",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0240.wav"
+        }
+      ],
+      "output": "57004c3e0850307b9c20a3109bc897bdc9d1e3a39a0261fe63ac6deb900dde47"
+    },
+    {
+      "id": "c3po-oh-dear",
+      "line": "Oh dear.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0188.wav"
+        }
+      ],
+      "output": "5e78d3a4dda1df5ba5456fca21048cf945c06f42a4035691f00c2cbb5a15789b"
+    },
+    {
+      "id": "c3po-not-programmed",
+      "line": "I have not been programmed to do this, I'm afraid.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/435/438636.zip",
+          "sha256": "aea42dbefb81a339818b06a7113342456d5c8b35052184ce52036518eb7267e2",
+          "member": "DX/DX_CHR_C3PO_IHAVENTBEEN_ENG.wav"
+        }
+      ],
+      "output": "c85e41bd9648e433ee0e33187c18f86363744817265308da3cf61d78f029e5b0"
+    },
+    {
+      "id": "c3po-embark",
+      "line": "If we must embark on a mission together, could I please ask that you refrain from pulling me apart?",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/435/438636.zip",
+          "sha256": "aea42dbefb81a339818b06a7113342456d5c8b35052184ce52036518eb7267e2",
+          "member": "DX/DX_CHR_C3PO_IFWEMUSTEMBARKONA_ENG.wav"
+        }
+      ],
+      "output": "53b62dc904c0dc0d4125fc4711d3e9215adf92533d116b3e25c8c9f13b444df1"
+    },
+    {
+      "id": "c3po-where-did-i-go",
+      "line": "Where did I go?",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/435/438636.zip",
+          "sha256": "aea42dbefb81a339818b06a7113342456d5c8b35052184ce52036518eb7267e2",
+          "member": "DX/DX_CHR_C3PO_WHEREDIDIGO_ENG.wav"
+        }
+      ],
+      "output": "751917ef78ca116abd88e4f57889ee0b4b3a3c399f862cb3bc053b45e3166449"
+    },
+    {
+      "id": "c3po-traumatic",
+      "line": "What a traumatic experience. I do hope we won't have to suffer through that sort of thing again.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0800.wav"
+        }
+      ],
+      "output": "129d13f8df9f0ada12a5613515b25f62e6fc4dec094c5344aff680b3dce73890"
+    },
+    {
+      "id": "c3po-good-day",
+      "line": "Good day.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/418/421698.zip",
+          "sha256": "b0ca7a5a468aa5025c8f5f6c0bbf9c2893f3c4f1034f594b07a0beee03464e41",
+          "member": "C-3PO/THP0156.wav"
+        }
+      ],
+      "output": "0b46eb0fab933a569ec1e8a0834f88a562e67e3ea10886a52064057edc73faf3"
+    },
+    {
+      "id": "c3po-not-the-droid",
+      "line": "I am terribly sorry, but I am not the droid you're looking for.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/435/438636.zip",
+          "sha256": "aea42dbefb81a339818b06a7113342456d5c8b35052184ce52036518eb7267e2",
+          "member": "DX/DX_CHR_C3PO_IAMTERRIBLYSORRYBUT_ENG.wav"
+        }
+      ],
+      "output": "6f98fac316bc05c0402203f9a9e3d097dca212e99541cda5e433b0d4658d96e7"
+    },
+    {
+      "id": "c3po-fluent",
+      "line": "I am fluent in over six million forms of communication, if that is of any use today.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/435/438636.zip",
+          "sha256": "aea42dbefb81a339818b06a7113342456d5c8b35052184ce52036518eb7267e2",
+          "member": "DX/DX_CHR_C3PO_IAMFLUENTINSIX_ENG.wav"
+        }
+      ],
+      "output": "5fc53f1776d309d3cedc7bacf777bfcdd463aeb7b8a8c6d0b464e5b54e52053b"
+    },
+    {
+      "id": "c3po-some-sort-of-god",
+      "line": "I do believe they think I am some sort of god.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/524/541575.zip",
+          "sha256": "ed15409f3087f39c7c4a3e0e7195deb0cfd2e1a28e4b9aba7b43761d90c703f3",
+          "member": "C3PO_c3po/c3po_16.mp3"
+        }
+      ],
+      "output": "0ed0e831b4694e840695974f34b6af3c05a6ed3357d4ffdc577fbabf6f92d685"
+    },
+    {
+      "id": "c3po-not-scrap",
+      "line": "Just to let you know, I am not scrap and I am not for sale, so good day to you.",
+      "droid": "c3po",
+      "sources": [
+        {
+          "url": "https://sounds.spriters-resource.com/media/assets/435/438636.zip",
+          "sha256": "aea42dbefb81a339818b06a7113342456d5c8b35052184ce52036518eb7267e2",
+          "member": "DX/DX_CHR_C3PO_JUSTTOLETYOUKNOWIAM_ENG.wav"
+        }
+      ],
+      "output": "88b9f9bcc5af699c4f5666aad2e8cc100f4693e8b9f76fca2bf8aa2b5760a81c"
+    }
+  ]
+}
