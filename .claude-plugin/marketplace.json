@@ -1,0 +1,15 @@
+{
+  "name": "agent-starwars",
+  "description": "R2-D2 and C-3PO sound notifications for coding agents: Thank the Maker!",
+  "owner": {
+    "name": "mitchtech",
+    "url": "https://github.com/mitchtech"
+  },
+  "plugins": [
+    {
+      "name": "starwars",
+      "source": "./",
+      "description": "R2-D2 and C-3PO sound notifications for coding agents: Thank the Maker!"
+    }
+  ]
+}

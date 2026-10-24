@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "starwars",
+  "version": "0.1.0",
+  "description": "R2-D2 and C-3PO sound notifications for coding agents: Thank the Maker!",
+  "author": {
+    "name": "Michael J. Mitchell",
+    "email": "michael@mitchtech.net",
+    "url": "https://github.com/mitchtech"
+  },
+  "homepage": "https://mitchtech.github.io/agent-starwars/",
+  "repository": "https://github.com/mitchtech/agent-starwars",
+  "license": "MIT",
+  "keywords": [
+    "audio",
+    "notifications",
+    "coding-agents",
+    "star-wars",
+    "r2-d2",
+    "c-3po",
+    "droid",
+    "pet",
+    "custom-pet",
+    "codex-pet",
+    "companion"
+  ],
+  "extensions": {
+    "com.openai": {
+      "hooks": "./hooks/codex.json",
+      "interface": {
+        "displayName": "Agent Star Wars",
+        "shortDescription": "R2-D2 and C-3PO sounds for coding agents",
+        "developerName": "Michael J. Mitchell",
+        "category": "Productivity"
+      }
+    }
+  }
+}

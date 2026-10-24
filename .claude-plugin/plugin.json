@@ -1,0 +1,15 @@
+{
+  "name": "starwars",
+  "version": "0.1.0",
+  "description": "R2-D2 and C-3PO sound notifications for coding agents: Thank the Maker!",
+  "icon": "./assets/previews/icon.png",
+  "author": {
+    "name": "Michael J. Mitchell",
+    "email": "michael@mitchtech.net",
+    "url": "https://github.com/mitchtech"
+  },
+  "homepage": "https://mitchtech.github.io/agent-starwars/",
+  "repository": "https://github.com/mitchtech/agent-starwars",
+  "license": "MIT",
+  "hooks": "./hooks/claude.json"
+}

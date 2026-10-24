@@ -1,0 +1,7 @@
+{
+  "id": "r2d2",
+  "displayName": "R2-D2",
+  "description": "An astromech droid with a domed head and blue and white plating.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp"
+}

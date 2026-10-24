@@ -1,0 +1,65 @@
+{
+  "name": "agent-starwars",
+  "version": "0.1.0",
+  "description": "R2-D2 and C-3PO sound notifications for coding agents: Thank the Maker!",
+  "type": "module",
+  "bin": {
+    "agent-starwars": "scripts/starwars.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check scripts/starwars.mjs && node --check scripts/pet.mjs && node --check scripts/build-site.mjs && node --check site/app.js && node --check site/theme.js && node --check scripts/build-gemini.mjs && node --check scripts/check-package.mjs && node scripts/check-project.mjs",
+    "doctor": "node scripts/starwars.mjs doctor",
+    "site": "node scripts/build-site.mjs",
+    "gemini": "node scripts/build-gemini.mjs",
+    "test:package": "node scripts/check-package.mjs"
+  },
+  "files": [
+    "scripts/starwars.mjs",
+    "scripts/pet.mjs",
+    "audio",
+    "pets",
+    "plugin.json",
+    ".claude-plugin",
+    ".agents/plugins",
+    "hooks",
+    "docs",
+    "CHANGELOG.md",
+    "assets/previews/icon.png",
+    "assets/previews/banner.png",
+    "assets/previews/r2-hello.gif",
+    "assets/previews/c3po-excuse-me.gif",
+    "assets/previews/c3po-doomed.gif",
+    "assets/previews/c3po-thank-the-maker.gif",
+    "assets/previews/c3po-technical.gif",
+    "assets/previews/r2-win.gif",
+    "skills",
+    "gemini-extension.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchtech/agent-starwars.git"
+  },
+  "homepage": "https://mitchtech.github.io/agent-starwars/",
+  "bugs": "https://github.com/mitchtech/agent-starwars/issues",
+  "author": "Michael J. Mitchell <michael@mitchtech.net>",
+  "license": "MIT",
+  "keywords": [
+    "star-wars",
+    "r2-d2",
+    "c-3po",
+    "droids",
+    "audio",
+    "notifications",
+    "coding-agents",
+    "claude-code",
+    "codex",
+    "gemini-cli",
+    "gemini-cli-extension",
+    "codex-pet",
+    "custom-pets"
+  ]
+}
