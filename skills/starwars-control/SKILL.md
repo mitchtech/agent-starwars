@@ -17,7 +17,8 @@ description: >-
   DO NOT TRIGGER when: the user wants operating system volume controls, unrelated
   notification settings, Agent Navi controls (use navi-control), Agent Johnny 5
   controls (use johnny5-control), Agent Warcraft controls (use warcraft-control),
-  pet artwork, or pet selection through the host picker.
+  Agent Rocky controls (use rocky-control), Agent StarCraft controls (use
+  starcraft-control), pet artwork, or pet selection through the host picker.
 ---
 
 # Agent Star Wars sound controls

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 - 2026-10-28
+
+- Link the Agent Rocky and Agent StarCraft sibling projects in the README, site, control skill, and promotion kit.
+
 ## 0.1.0 - 2026-10-24
 
 First release, built on the Agent Warcraft v0.3.0 runtime.
