@@ -68,8 +68,8 @@ agent, verify the local audio player/device, and inspect the mute state. Codex
 also requires hook trust review. Use `doctor` for diagnostics and
 `preview c3po-thank-the-maker` for an explicit audio check.
 
-**I hear a peon and a droid.** Agent Warcraft, Agent Navi, or Agent Johnny 5 is
-installed too. Enable one per host; see the
+**I hear a peon and a droid.** Another Agent plugin (Warcraft, Navi, Johnny 5,
+Rocky, or StarCraft) is installed too. Enable one per host; see the
 [install walkthrough](install.md#already-using-a-sibling-plugin).
 
 **Will it play on my laptop from SSH, WSL, or a container?** Not automatically.

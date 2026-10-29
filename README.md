@@ -18,7 +18,9 @@
   <a href="https://github.com/mitchtech/agent-starwars/releases">Releases</a> ·
   <a href="https://github.com/mitchtech/agent-warcraft">Agent Warcraft</a> ·
   <a href="https://github.com/mitchtech/agent-navi">Agent Navi</a> ·
-  <a href="https://github.com/mitchtech/agent-johnny5">Agent Johnny 5</a>
+  <a href="https://github.com/mitchtech/agent-johnny5">Agent Johnny 5</a> ·
+  <a href="https://github.com/mitchtech/agent-rocky">Agent Rocky</a> ·
+  <a href="https://github.com/mitchtech/agent-starcraft">Agent StarCraft</a>
 </p>
 
 <table align="center">
@@ -55,8 +57,10 @@ to `r2d2` for beeps only, `c3po` for C-3PO only, or `both` for a random mix. It
 runs locally, sends no telemetry, and never approves or blocks an agent's actions.
 
 A sibling of [Agent Warcraft](https://github.com/mitchtech/agent-warcraft),
-[Agent Navi](https://github.com/mitchtech/agent-navi), and
-[Agent Johnny 5](https://github.com/mitchtech/agent-johnny5), inspired by
+[Agent Navi](https://github.com/mitchtech/agent-navi),
+[Agent Johnny 5](https://github.com/mitchtech/agent-johnny5),
+[Agent Rocky](https://github.com/mitchtech/agent-rocky), and
+[Agent StarCraft](https://github.com/mitchtech/agent-starcraft), inspired by
 [thephw/claude-meseeks](https://github.com/thephw/claude-meseeks).
 
 ## Choose your setup
@@ -126,9 +130,10 @@ branch. See [Gemini integration](docs/gemini.md).
 
 ### Running alongside the sibling plugins
 
-Agent Warcraft, Agent Navi, Agent Johnny 5, and Agent Star Wars respond to the
-same events. Enable one per host unless you want a peon, a fairy, a robot, and
-two droids talking over each other. For example,
+Agent Warcraft, Agent Navi, Agent Johnny 5, Agent Rocky, Agent StarCraft, and
+Agent Star Wars respond to the same events. Enable one per host unless you want
+a peon, a fairy, a robot, an Eridian, an SCV, and two droids talking over each
+other. For example,
 `claude plugin disable warcraft@agent-warcraft` for Claude Code, or
 `enabled = false` under `[plugins."warcraft@agent-warcraft"]` in
 `~/.codex/config.toml` for Codex.
@@ -448,7 +453,7 @@ the project workflow.
 - Star Wars, R2-D2, and C-3PO: Lucasfilm Ltd. C-3PO is performed by Anthony Daniels; R2-D2's voice was created by Ben Burtt.
 - Clip sources: The Sounds Resource rips of *LEGO Star Wars: The Skywalker Saga*, *Disney Infinity 3.0*, and a *Star Wars Soundboard*, plus WavSource film clips. See the [audio notice](audio/NOTICE.md).
 - Droid drawings on the site and preview cards: simple original shapes, not extracted from any film or game.
-- Sibling projects: [Agent Warcraft](https://github.com/mitchtech/agent-warcraft), [Agent Navi](https://github.com/mitchtech/agent-navi), and [Agent Johnny 5](https://github.com/mitchtech/agent-johnny5).
+- Sibling projects: [Agent Warcraft](https://github.com/mitchtech/agent-warcraft), [Agent Navi](https://github.com/mitchtech/agent-navi), [Agent Johnny 5](https://github.com/mitchtech/agent-johnny5), [Agent Rocky](https://github.com/mitchtech/agent-rocky), and [Agent StarCraft](https://github.com/mitchtech/agent-starcraft).
 - Original plugin inspiration: [thephw/claude-meseeks](https://github.com/thephw/claude-meseeks).
 
 Code and configuration: [MIT](LICENSE). Bundled audio is excluded; see the
