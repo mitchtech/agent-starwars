@@ -41,8 +41,8 @@ nothing. Codex's native pet feature can create a pet in the meantime.
 
 ## Already using a sibling plugin?
 
-Agent Warcraft, Agent Navi, Agent Johnny 5, and Agent Star Wars answer the same
-events. Enable one per host. For example,
+Agent Navi, Agent Johnny 5, Agent Warcraft, Agent Rocky, Agent Star Wars, and
+Agent StarCraft all answer the same events. Enable one per host. For example,
 `claude plugin disable warcraft@agent-warcraft` for Claude Code, or
 `enabled = false` under `[plugins."warcraft@agent-warcraft"]` in
 `~/.codex/config.toml` for Codex.

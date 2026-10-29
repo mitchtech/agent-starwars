@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1 - 2026-10-28
+
+Link the whole sibling family.
+
+- Link Agent Navi, Agent Johnny 5, Agent Warcraft, Agent Rocky, Agent Star Wars, and Agent StarCraft (excluding this project) from the README, the site footer, and the control skill's DO NOT TRIGGER line, in one consistent order.
+- Replace the per-sibling "running alongside" notes in the README, site, and install walkthrough with one section that covers every sibling.
+
 ## 0.1.0 - 2026-10-24
 
 First release, built on the Agent Warcraft v0.3.0 runtime.

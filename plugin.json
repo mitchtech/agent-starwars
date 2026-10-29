@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "starwars",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "R2-D2 and C-3PO sound notifications for coding agents: Thank the Maker!",
   "author": {
     "name": "Michael J. Mitchell",

@@ -68,9 +68,8 @@ agent, verify the local audio player/device, and inspect the mute state. Codex
 also requires hook trust review. Use `doctor` for diagnostics and
 `preview c3po-thank-the-maker` for an explicit audio check.
 
-**I hear a peon and a droid.** Agent Warcraft, Agent Navi, or Agent Johnny 5 is
-installed too. Enable one per host; see the
-[install walkthrough](install.md#already-using-a-sibling-plugin).
+**I hear two voices at once.** A sibling plugin is installed too. Enable one per
+host; see the [install walkthrough](install.md#already-using-a-sibling-plugin).
 
 **Will it play on my laptop from SSH, WSL, or a container?** Not automatically.
 Audio plays where the hook runs. A working audio bridge must already exist if
