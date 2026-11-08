@@ -1,6 +1,6 @@
 {
   "name": "agent-starwars",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "R2-D2 and C-3PO sound notifications for coding agents: Thank the Maker!",
   "type": "module",
   "bin": {

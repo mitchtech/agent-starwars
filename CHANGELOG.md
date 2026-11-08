@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1 - 2026-11-07
+
+- Link the Agent Rocky and Agent StarCraft sibling projects in the README, site, and control skill.
+- Move the promotion kit drafts out of the repository. The preview media stay in `assets/promotion/`, rebuilt by `scripts/build-media.py`.
+
 ## 0.1.0 - 2026-10-24
 
 First release, built on the Agent Warcraft v0.3.0 runtime.
