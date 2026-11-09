@@ -18,7 +18,7 @@ def main():
     spec.loader.exec_module(pet)
     if OUT.exists():
         shutil.rmtree(OUT)
-    version = json.loads((ROOT / "package.json").read_text())["version"]
+    version = json.loads((ROOT / "package.json").read_text(encoding="utf-8"))["version"]
     # Pet archives are skipped until each droid's art is bundled.
     for index, pet_id in enumerate(["r2d2", "c3po"]):
         archive = pet.package(OUT, with_package=index == 0, pet_id=pet_id)
@@ -49,10 +49,10 @@ def main():
         if web.exists():
             shutil.copyfile(web, OUT / web.name)
     artifacts = sorted(path for path in OUT.iterdir() if path.name != "SHA256SUMS")
-    (OUT / "SHA256SUMS").write_text("".join(f"{hashlib.sha256(path.read_bytes()).hexdigest()}  {path.name}\n" for path in artifacts))
-    changelog = (ROOT / "CHANGELOG.md").read_text()
+    (OUT / "SHA256SUMS").write_text("".join(f"{hashlib.sha256(path.read_bytes()).hexdigest()}  {path.name}\n" for path in artifacts), encoding="utf-8", newline="\n")
+    changelog = (ROOT / "CHANGELOG.md").read_text(encoding="utf-8")
     section = changelog.split(f"## {version} - ", 1)[1].split("\n## ", 1)[0].split("\n", 1)[1].lstrip("\n")
-    (ROOT / "dist" / "release-notes.md").write_text(section)
+    (ROOT / "dist" / "release-notes.md").write_text(section, encoding="utf-8", newline="\n")
     print(f"Built {len(artifacts)} release assets and checksums in {OUT}")
 
 
