@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2 - 2026-11-08
+
+- Update development-only Pillow to 13.0.0 to resolve decoder security advisories. Revalidate pet atlases, web exports, and generated previews; sound runtimes remain dependency-free.
+
 ## 0.1.1 - 2026-11-07
 
 - Link the Agent Rocky and Agent StarCraft sibling projects in the README, site, and control skill.
